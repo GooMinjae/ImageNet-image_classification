@@ -1,18 +1,22 @@
 # ImageNet-image_classification
 
-ImageNet 이미지를 가지고 분류모델을 만드는 Kaggle Competition을 진행하였습니다.
+ImageNet 이미지를 사용하여 분류모델을 만드는 Kaggle Competition 프로젝트입니다.
 
 최종 제출 Score: 68.4 %
 
-* ResNet-34
+---
 
-* EMA
+### 🔍 사용한 모델 및 기법
 
-* Albumentation
+* Base Model: **ResNet-34**
 
-* Early Stopping
+* Regularization: **EarlyStopping, EMA (Exponential Moving Average)**
 
-* TTA
+* Augmentation: **Albumentation**
+
+* Learning Rate Scheduler: **OneCycleLR**
+
+* Inference Trick: **TTA (Test-Time Augmentation)**
 
 ---
 
